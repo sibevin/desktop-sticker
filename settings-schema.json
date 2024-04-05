@@ -1,0 +1,55 @@
+{
+  "note-entry": {
+    "type": "textview",
+    "default": "Your Note Here",
+    "description": "Note:",
+    "tooltip": "Write something"
+  },
+  "font-options-separator": {
+    "type": "separator"
+  },
+  "font-options-header": {
+    "type": "header",
+    "description": "Font options:"
+  },
+  "font-size": {
+    "type": "spinbutton",
+    "default": 24,
+    "min": 8,
+    "max": 200,
+    "units": "px",
+    "description": "Font size:",
+    "step": 1
+  },
+  "text-color": {
+    "type": "colorchooser",
+    "default": "rgba(0,0,0,255)",
+    "description": "Font color:",
+    "tooltip": "Click to select a new text color"
+  },
+  "bg-color": {
+    "type": "colorchooser",
+    "default": "rgba(255,255,255,0)",
+    "description": "Background color:",
+    "tooltip": "Click to select a new text color"
+  },
+  "pending-size": {
+    "type": "spinbutton",
+    "default": 8,
+    "min": 0,
+    "max": 200,
+    "units": "px",
+    "description": "Pending size:",
+    "step": 1
+  },
+  "text-align": {
+    "type": "radiogroup",
+    "default": "left",
+    "description": "Text alignment:",
+    "options": {
+      "Left": "left",
+      "Center": "center",
+      "Right": "right"
+    }
+  }
+}
